@@ -5,7 +5,7 @@ In this library it is encapsulated an external library: babel polyfills (support
 
 Here are detailed examples about how to use the library in a UI5 project.
 
-- In your project: `npm i git+https://github.com/sebasgoldberg/ui5-babel-polyfills.git`
+- In your project: `npm i ui5-babel-polyfills`
 
 - `./webapp/index.html`:
 This is only for test environment, you do not need this in SAP Gateway Server.
