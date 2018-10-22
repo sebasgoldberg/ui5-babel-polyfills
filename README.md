@@ -5,6 +5,8 @@ In this library it is encapsulated an external library: babel polyfills (support
 
 Here are detailed examples about how to use the library in a UI5 project.
 
+- In your project: `npm i git+https://github.com/sebasgoldberg/ui5-babel-polyfills.git`
+
 - `./webapp/index.html`:
 This is only for test environment, you do not need this in SAP Gateway Server.
 ```html
@@ -22,7 +24,17 @@ This is only for test environment, you do not need this in SAP Gateway Server.
             }'>
     </script>
 ```
-Obiously `resources` was mapped with the folder that contains the library project folder (in `Grunfile.js`).
+
+Obiously `resources` was mapped with node_modules folder in `Grunfile.js`.
+```
+        openui5_connect: {
+            options: {
+                resources: [
+                    "../node_modules/",
+                ]
+            },
+```
+
 
 - `./manifest.json`: This is the important part. We indicate our custom library as dependency.
 ```json

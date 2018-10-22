@@ -1,7 +1,7 @@
 {
-  "name": "external-libs",
-  "version": "0.1.1",
-  "description": "External Lib Definitin",
+  "name": "ui5-babel-polyfills",
+  "version": "0.1.0",
+  "description": "UI5 Library For Babel Polyfills",
   "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
