@@ -30,7 +30,7 @@ Obiously `resources` was mapped with node_modules folder in `Grunfile.js`.
         openui5_connect: {
             options: {
                 resources: [
-                    "../node_modules/",
+                    "node_modules/",
                 ]
             },
 ```
